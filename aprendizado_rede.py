@@ -19,7 +19,7 @@ w2 = -1
 
 c = 1
 
-# Número de épocas de treinamento
+
 num_epocas = 10000
 
 # Treinamento da rede neural usando regra delta
@@ -37,7 +37,7 @@ while not rede_treinada:
         # função de transferência
         saida_atual = rampa(potencial_ativacao)
 
-        # Se saída errada, ajustar os pesos
+        # função condicional para ajustar os pesos caso a saida seja errada
         if saida_atual != saida_desejada:
             rede_treinada = False
             ajuste(entrada[0], entrada[1], saida_desejada, saida_atual)
