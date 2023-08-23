@@ -12,13 +12,10 @@ def ajuste(x1, x2, yd, yo):
 entradas = [[1, 1], [1, 0], [0, 1], [0, 0]]
 saidas = [1, 1, 0, 0]
 
-
 w1 = -1
 w2 = -1
 
-
 c = 1
-
 
 num_epocas = 10000
 
