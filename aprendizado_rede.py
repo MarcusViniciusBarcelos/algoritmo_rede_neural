@@ -1,5 +1,8 @@
+import numpy as np
+
+
 def rampa(x):
-    return 1 if x > 0 else 0
+    return np.maximum(0, x)
 
 
 def ajuste(x1, x2, yd, yo):
